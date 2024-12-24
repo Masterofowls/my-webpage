@@ -3,8 +3,9 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Service from "./Service";
-import Design from "./Design";
+import Design from "./Chat";
 import Contact from "./Contact";
+import Footer from "./Footer";
 import "./WebpageDesign.css";
 
 const WebpageDesign = () => {
@@ -30,7 +31,7 @@ const WebpageDesign = () => {
             <input className="srch" type="search" placeholder="Type To text" />
             <button className="btn">Search</button>
           </div>
-        </div>
+                </div>
 
         <Routes>
           <Route path="/" element={<Home />} />
